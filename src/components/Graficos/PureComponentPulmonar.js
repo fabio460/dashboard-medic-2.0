@@ -13,7 +13,7 @@ export default function PureComponentPulmonar({dados}) {
           })
       }))
       return (
-            <RadarChart outerRadius={90} width={310} height={270} data={data} className='RadarChart'>
+            <RadarChart outerRadius={80} width={310} height={270} data={data} className='RadarChart'>
                   <PolarGrid />
                   <PolarAngleAxis dataKey="subject" />
                   <PolarRadiusAxis angle={30} domain={[0, 1]} />

@@ -2,7 +2,11 @@
    color: white;
 }
 .navbarBody{
-   background-color: red;
    
+   padding: 0;
+}
+
+.navbar-toggler{
+   margin: 0;
    padding: 0;
 }
