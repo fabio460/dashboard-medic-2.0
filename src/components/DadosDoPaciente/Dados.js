@@ -4,9 +4,9 @@ import {useState} from 'react'
 import AreaChartPulmonar from '../Graficos/AreaChartPulmonar'
 import AreaChartCardiaco from '../Graficos/AreaChartCardiaco'
 import GraficoPizzaPulmonar from '../Graficos/GraficoPizzaPulmonar'
-//import PureComponentPulmonar from '../Graficos/PureComponentPulmonar'
+import PureComponentPulmonar from '../Graficos/PureComponentPulmonar'
 import GraficoPizzaCardiaco from '../Graficos/GraficoPizzaCardiaco'
-//import PureComponentsCardiaco from '../Graficos/PureComponentsCardiaco'
+import PureComponentsCardiaco from '../Graficos/PureComponentsCardiaco'
 import api from '../../api'
 export default function Dados() {
 
@@ -45,7 +45,9 @@ export default function Dados() {
        <div className='graficoPizza'>
          <div className='pizzasItens'><GraficoPizzaPulmonar dados={indicepulm}/></div>
          <div className='pizzasItens'>  <GraficoPizzaCardiaco dados={indiceCardiaco}/></div>
-       
+         <div className='pizzasItens'> <PureComponentPulmonar dados={indicepulm}/></div>
+         
+         <div className='pizzasItens'>  <PureComponentsCardiaco dados={indiceCardiaco}/></div>
        </div>
 
        <div className='graficosIndices'>

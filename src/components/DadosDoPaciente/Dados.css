@@ -20,6 +20,7 @@
     
   
 }
+
 @media (max-width:450px) {
     .graficosIndices{
        grid-template-columns: 1fr;
