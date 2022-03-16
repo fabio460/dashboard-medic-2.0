@@ -45,9 +45,7 @@ export default function Dados() {
        <div className='graficoPizza'>
          <div className='pizzasItens'><GraficoPizzaPulmonar dados={indicepulm}/></div>
          <div className='pizzasItens'>  <GraficoPizzaCardiaco dados={indiceCardiaco}/></div>
-         <div className='pizzasItens'> <PureComponentPulmonar dados={indicepulm}/></div>
-         
-         <div className='pizzasItens'>  <PureComponentsCardiaco dados={indiceCardiaco}/></div>
+       
        </div>
 
        <div className='graficosIndices'>
