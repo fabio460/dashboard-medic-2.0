@@ -4,9 +4,9 @@ import {useState} from 'react'
 import AreaChartPulmonar from '../Graficos/AreaChartPulmonar'
 import AreaChartCardiaco from '../Graficos/AreaChartCardiaco'
 import GraficoPizzaPulmonar from '../Graficos/GraficoPizzaPulmonar'
-import PureComponentPulmonar from '../Graficos/PureComponentPulmonar'
+//import PureComponentPulmonar from '../Graficos/PureComponentPulmonar'
 import GraficoPizzaCardiaco from '../Graficos/GraficoPizzaCardiaco'
-import PureComponentsCardiaco from '../Graficos/PureComponentsCardiaco'
+//import PureComponentsCardiaco from '../Graficos/PureComponentsCardiaco'
 import api from '../../api'
 export default function Dados() {
 
