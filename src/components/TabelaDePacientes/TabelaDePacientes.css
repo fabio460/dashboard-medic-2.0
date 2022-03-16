@@ -1,0 +1,7 @@
+.TabelaDePacientes{
+    flex: 4;
+    height: 100vh;
+}
+.renderCell{
+    cursor: pointer;
+}

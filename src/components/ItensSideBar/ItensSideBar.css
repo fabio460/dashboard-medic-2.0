@@ -1,0 +1,13 @@
+.listaSideBarItens{
+    cursor: pointer;
+    height:'10px';
+}
+.listaSideBarItens:hover{
+    color: rgb(224, 221, 221);
+}
+li{
+    list-style: none;
+}
+ul{
+    margin-top: 15px;
+}

@@ -1,0 +1,69 @@
+.home{
+    padding: 13px;
+    flex:4;
+}
+.quantidadeDePacientes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.quantPacientesItens{
+    background-color: rgb(234, 236, 236);
+    margin: 10px;
+    height: 200px;
+    border-radius: 5px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.quantPacientesItensNumeros{
+    color: red;
+}
+.faixaDeIdade{
+    font-size: 12px;
+}
+.verde{
+    color: #00C49F;
+}
+.azul{
+   color: #0088FE;
+}
+.laranja{
+   color: #dd4c04;
+}
+.amarelo{
+  color: #FFBB28;
+}
+.vermelho{
+    color:#FF1941;
+}
+.roxo{
+    color: #AE1564;
+}
+.pacientesIndicesAltos{
+    background-color: rgb(234, 236, 236);
+    margin: 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 3px;
+}
+.pacientesIndicesAltosItens{
+    background-color: white;
+    margin: 15px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:450px) {
+    .quantidadeDePacientes{
+        grid-template-columns: 1fr;
+    }
+    .pacientesIndicesAltos{
+        grid-template-columns: 1fr;
+    }
+}

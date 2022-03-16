@@ -1,0 +1,30 @@
+.Dados{
+    flex: 4;
+}
+.graficosIndices{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+
+}
+.indicesGraficoPulm,.indiceGrafcosCardiaco{
+    width: 100%;
+    
+}
+.graficoPizza{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.pizzasItens{
+    background-color: aquamarine;
+    margin:40px 3px;
+    
+  
+}
+@media (max-width:450px) {
+    .graficosIndices{
+       grid-template-columns: 1fr;
+    }
+    .graficoPizza{
+        grid-template-columns: 1fr;
+    }
+}

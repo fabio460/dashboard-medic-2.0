@@ -1,0 +1,27 @@
+.sidebar{
+    flex: 1;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    
+    padding: 13px;
+}
+.aberto{
+    margin-left: 0px;
+    flex: 8;
+    transition: 0.5s;
+}
+.SideBarResponsivo{
+    display: none;
+}
+@media (max-width:450px) {
+    .sidebar{
+        display: none;
+    }
+    
+    .SideBarResponsivo{
+        display: flex;
+        background-color: rgb(48, 48, 48);
+        color: white;
+        height: 100vh;
+    }
+}
