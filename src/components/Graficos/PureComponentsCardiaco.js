@@ -14,7 +14,7 @@ export default function PureComponentsCardiaco({dados}) {
           })
       }))
       return (
-            <RadarChart outerRadius={90} width={400} height={270} data={data}>
+            <RadarChart outerRadius={90} width={380} height={270} data={data}>
             <PolarGrid />
             <PolarAngleAxis dataKey="subject" />
             <PolarRadiusAxis angle={30} domain={[0, 1]} />

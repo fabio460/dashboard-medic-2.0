@@ -33,7 +33,7 @@ export default function GraficoPizzaPulmonar({dados}) {
             
                 <ResponsiveContainer width="100%" height="100%">
                     
-                    <PieChart width={200} height={400}>
+                    <PieChart width={160} height={400}>
                     <Pie
                         data={data}
                         cx="50%"
