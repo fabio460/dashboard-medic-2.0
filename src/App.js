@@ -8,7 +8,7 @@ import Dados from './components/DadosDoPaciente/Dados';
 import Home from './components/Home/Home';
 import {useDispatch} from 'react-redux'
 import api from './api'
-import NavBar2 from './components/NavBar/NavBar2';
+
 function App() {
 
   
@@ -31,7 +31,7 @@ function App() {
       <BrowserRouter>
          <Switch>
            <Route exact path={'/'}>
-               <NavBar2/>
+               <NavBar/>
                <div className='body'>
                   <SideBar/>
                   <Home lista={list}/>
