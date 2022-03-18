@@ -32,14 +32,18 @@
    margin-left: 13px;
    display: flex;
    align-items: center;
+   cursor: pointer;
+}
+.dropdown-item{
+   cursor: pointer;
 }
 .navBarLogo{
    color: white;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+   cursor: pointer;
 }
 .MenuIcon{
-
+   
    margin: 0 -10px;
    color: black;
    

@@ -97,9 +97,9 @@ export default function Home({lista}) {
           
         </div>
         <div className='quantidadeDePacientes'>
-           <div className='quantPacientesItens'>quantidade</div>   
-           <div className='quantPacientesItens'>quantidade</div>  
-           <div className='quantPacientesItens'>quantidade</div>  
+           <div className='quantPacientesItens'></div>   
+           <div className='quantPacientesItens'></div>  
+           <div className='quantPacientesItens'></div>  
         </div>
     </div>
   )
