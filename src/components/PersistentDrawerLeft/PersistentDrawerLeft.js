@@ -2,7 +2,7 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
 import Button from '@mui/material/Button';
-
+import MenuIcon from '@mui/icons-material/Menu';
 import SideBarResponsivo from '../SideBar/SideBarResponsivo';
 
 export default function PersistentDrawerLeft({clique}) {
@@ -12,18 +12,13 @@ export default function PersistentDrawerLeft({clique}) {
     bottom: false,
     right: false,
   });
-
   const toggleDrawer = (anchor, open) => (event) => {
-    
     if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
       return;
     }
-
     setState({ ...state, [anchor]: open });
   };
  
- 
-  
   const list = (anchor) => (
     <Box
       sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 200 }}
@@ -39,7 +34,7 @@ export default function PersistentDrawerLeft({clique}) {
     <div>
       {['left'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button sx={{margin:'0 -50px' }} onClick={toggleDrawer(anchor, true)}>{''}</Button>
+          <Button sx={{minWidth:'1px' }} onClick={toggleDrawer(anchor, true)}><MenuIcon/></Button>
           <Drawer
             anchor={anchor}
             open={state[anchor]}

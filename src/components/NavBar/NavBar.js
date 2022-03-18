@@ -18,11 +18,8 @@ export default function NavBar() {
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
                 >
                     <span class="navbar-toggler-icon"><PersistentDrawerLeft /></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                
-                </div>
+                </button>        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
             </div>
         </nav>
     </div>

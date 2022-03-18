@@ -49,11 +49,11 @@ export default function CustomContentOfTooltip(){
   let AC = 0 
   let PR = 0
   let BA = 0
-  let SP = 0
+  //let SP = 0
   let RJ = 0
   let PE = 0
   let MG = 0
-  let DemaisRegioes = 0
+  
 
     const listaDePacientes = useSelector(state=>state.Lista.lista)
     
@@ -86,7 +86,7 @@ export default function CustomContentOfTooltip(){
                 break; 
 
             case 'SP':
-              SP+=1
+              //SP+=1
               break;
             case 'MG':
               MG+=1
@@ -96,13 +96,14 @@ export default function CustomContentOfTooltip(){
                   break; 
           
          default:
-           DemaisRegioes+=1
+           
+
            break;
        }
        return 1
     })
     
-    console.log(RO+'-'+PE+'-'+AM+'-'+AP+'-'+CE+'-'+AC+'-'+MG+'-'+SP+'-'+DemaisRegioes)
+    
     
     const data = [
       {
@@ -153,12 +154,7 @@ export default function CustomContentOfTooltip(){
         
         amt: 2500,
       },
-      {
-        name: 'demais',
-        pacientes: DemaisRegioes,
-        
-        amt: 2100,
-      },
+      
       {
         name: 'BA',
         pacientes: BA,

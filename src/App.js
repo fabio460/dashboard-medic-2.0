@@ -2,12 +2,13 @@ import './App.css';
 import React, { useEffect, useState } from 'react'
 import TabelaDePacientes from './components/TabelaDePacientes/TabelaDePacientes';
 import {BrowserRouter,Switch,Route} from 'react-router-dom'
-import NavBar from './components/NavBar/NavBar';
+
 import SideBar from './components/SideBar/SideBar';
 import Dados from './components/DadosDoPaciente/Dados';
 import Home from './components/Home/Home';
 import {useDispatch} from 'react-redux'
 import api from './api'
+import NavBar2 from './components/NavBar/NavBar2';
 
 function App() {
 
@@ -28,24 +29,25 @@ function App() {
   
   return (
     <div className="App">
+
       <BrowserRouter>
          <Switch>
            <Route exact path={'/'}>
-               <NavBar/>
+               <NavBar2/>
                <div className='body'>
                   <SideBar/>
                   <Home lista={list}/>
                </div>
              </Route>
              <Route path={'/dados'}>
-               <NavBar/>
+               <NavBar2/>
                <div className='body'>
                   <SideBar/>
                   <Dados/>
                </div>
              </Route>
              <Route path={'/lista'}>
-             <NavBar/>
+             <NavBar2/>
                <div className='body'>
                   <SideBar/>
                   <TabelaDePacientes rows={list}/>
