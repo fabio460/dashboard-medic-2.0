@@ -14,7 +14,7 @@
    display: flex;
    justify-content: space-between;
    padding: 15px;
-   background-color: rgb(164, 164, 223);
+   background-color: rgb(28, 28, 153);
    color: white;
 }
 .navbarBodyItens{
@@ -36,6 +36,7 @@
 .navBarLogo{
    color: white;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 .MenuIcon{
 
