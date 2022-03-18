@@ -14,6 +14,7 @@ export default function NavBar2() {
             <h2 className='navBarLogo'>Medic Pacientes</h2>
         </div>
         
+        
         <div className='navbarBodyItens'>
              <div className='navbarBodyItem'> <SimpleBadge/></div>
              <div className='navbarBodyItem'><AccountCircleIcon /></div>
