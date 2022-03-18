@@ -34,7 +34,9 @@ export default function PersistentDrawerLeft({clique}) {
     <div>
       {['left'].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button sx={{minWidth:'1px' }} onClick={toggleDrawer(anchor, true)}><MenuIcon/></Button>
+          <Button sx={{minWidth:'1px' }} className='btnPerDraw' onClick={toggleDrawer(anchor, true)}>
+            <MenuIcon className='MenuIcon'/>
+          </Button>
           <Drawer
             anchor={anchor}
             open={state[anchor]}

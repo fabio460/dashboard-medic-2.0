@@ -14,23 +14,36 @@
    display: flex;
    justify-content: space-between;
    padding: 15px;
-   background-color: blue;
+   background-color: rgb(164, 164, 223);
    color: white;
 }
-.navbarBodyItem{
+.navbarBodyItens{
    display: flex;
    align-items: center;
 }
 .btnNavbarBodyItem{
    display: none;
    justify-content: center;
-   
-}
+   min-width: 20px;
+   color: black;
 
+}
+.navbarBodyItem{
+   margin-left: 13px;
+   display: flex;
+   align-items: center;
+}
 .navBarLogo{
    color: white;
    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+.MenuIcon{
+
+   margin: 0 -10px;
+   color: black;
+   
+}
+
 @media (max-width:400px) {
    .nav-link{
       margin: 0;
@@ -40,7 +53,5 @@
    .btnNavbarBodyItem{
       display: flex;
       padding: 0;
-      
-      width: 50px;
    }
 }
